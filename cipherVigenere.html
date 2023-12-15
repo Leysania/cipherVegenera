@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Шифр Виженера</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <script src="main.js"></script>
+
+                <div class="keys" >
+                    <label for="key">Введите ключ:</label><br>
+                    <input type="text" id="key">
+                </div>
+
+                <div class="lag" >
+                    <label class="lang" for="language">Выберите язык текста:</label>
+                    <select id="language">
+                      <option value="russian">Русский</option>
+                      <option value="english">English</option>
+                    </select>
+                </div>
+
+                <div class="buttonAll" >
+                    <button class="button" onclick="encryptMessage()">Зашифровать</button>
+                    <button class="button" onclick="decryptMessage()">Расшифровать</button>
+                </div>
+
+                <div class="textInp" >
+                    <label for="message">Введите текст, который вы хотите зашифровать/расшифровать:</label><br>
+                    <textarea rows="8" cols="60" id="message"></textarea>
+                </div>
+
+                <div class="textOut" >
+                    <label for="output">Результат:</label><br>
+                    <textarea rows="8" cols="60" id="output"></textarea>
+                </div>
+
+    </body>
+</html>
+
+
+
+
+

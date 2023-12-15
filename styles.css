@@ -1,0 +1,43 @@
+.keys {
+    height: 40px;
+  }
+
+.buttonAll {
+    height: 60px; 
+    margin-top: 20px;
+}
+
+.button {
+    background-color: white; 
+    border: 2px solid #4CAF50;
+    font-size: 16px;
+    height: 35px;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#message{
+    border: solid 1px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: 250px; 
+    width: 45%;
+  }
+
+#output {
+    border: solid 1px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: 250px; 
+    width: 45%;
+}
+
+#language {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
